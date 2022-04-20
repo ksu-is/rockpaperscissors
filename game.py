@@ -1,8 +1,8 @@
 
 import random
-
-GUI_WINDOW_TITLE = "Rock-Paper-Scissors"
-WELCOME_MESSAGE = "Hi. Welcome to my Rock-Paper-Scissors game!"
+#changed the opening title of the GUI and also cahnged the welcoming message to stay consitent of new game title 
+GUI_WINDOW_TITLE = "Rock-Paper-Scissors-Shoot!"
+WELCOME_MESSAGE = "Hi. Welcome to my Rock-Paper-Scissors- Shoot game!, lets jump into it"
 GUI_PROMPT_MESSAGE = "Please choose an option from the dropdown:"
 
 #here i changed the winning and losing messages
@@ -12,10 +12,10 @@ TIE_MESSAGE = "Oh, it's a tie."
 
 def random_choice(options=["rock", "paper", "scissors"]):
     return random.choice(options)
-
+#added a new twist to the game. instead of having 3 options to choose from players now have four with the new addition of "shoot" 
 def determine_winner(choice1, choice2):
     """
-    Determines the winning choice between two choices from selectable options: "rock", "paper", or "scissors".
+    Determines the winning choice between two choices from selectable options: "rock", "paper", "scissors", "shoot".
     Returns the winning choice (e.g. "paper"), or None if there is a tie.
     Example: determine_winner("rock", "paper")
     """
@@ -50,7 +50,13 @@ def determine_winner(choice1, choice2):
             "rock": "rock",
             "paper": "scissors",
             "scissors": None, # represents a tie
+ #added in the possible outcomes if player were to choose "shoot" 
         },
+        "shoot":{
+            "rock": "shoot",
+            "paper": "shoot",
+            "scissors": "shoot",
+            "shoot": None, #represents a tie 
     }
 
     # todo: handle keyerror
@@ -64,9 +70,9 @@ if __name__ == "__main__":
     print("Launching the game...")
     print("-------------------")
 
-    options = ["rock", "paper", "scissors"]
-
-    user_choice = input("Please choose either 'rock', 'paper', or 'scissors': ")
+    options = ["rock", "paper", "scissors", "shoot"]
+#editied the user input question to include the option of choosing shoot 
+    user_choice = input("Please choose either 'rock', 'paper', 'scissors', or 'shoot': ")
 
     if user_choice in options:
         print("You chose:", user_choice)
