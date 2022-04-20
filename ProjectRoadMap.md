@@ -1,21 +1,21 @@
 sprint 1 
 
-join the ksu github account
+join the ksu github account (done)
 
-find previous examples of README and roadmaps 
+find previous examples of README and roadmaps (done)
 
-create my own README and project roadmap
+create my own README and project roadmap (done)
 
-find and clone and example repository 
+find and clone and example repository (done)
 
-make sure the code is working 
+make sure the code is working (done)
 
-add partner to repository 
+add partner to repository (done)
 
 
 sprint 2
 
-examine the cloned code
+examine the cloned code (done)
 
 each team memeber must complete 6 commits
 
