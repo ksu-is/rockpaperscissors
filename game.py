@@ -5,8 +5,9 @@ GUI_WINDOW_TITLE = "Rock-Paper-Scissors"
 WELCOME_MESSAGE = "Hi. Welcome to my Rock-Paper-Scissors game!"
 GUI_PROMPT_MESSAGE = "Please choose an option from the dropdown:"
 
-WIN_MESSAGE = "Congratulations, you won!"
-LOSE_MESSAGE = "Oh, the computer won. It's ok."
+#here i changed the winning and losing messages
+WIN_MESSAGE = "Congrats, you won the round!"
+LOSE_MESSAGE = "Oh no, looks like the computer won this time :("
 TIE_MESSAGE = "Oh, it's a tie."
 
 def random_choice(options=["rock", "paper", "scissors"]):
