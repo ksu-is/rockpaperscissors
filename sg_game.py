@@ -32,6 +32,6 @@ else:
     message += f"\n{TIE_MESSAGE}"
 
 message += "\n-------------------"
-message += "\nThanks for playing. Please play again!"
+message += "\nThanks for playing. Please try again!"
 
 sg.Popup("Results...", message)
