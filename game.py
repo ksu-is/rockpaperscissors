@@ -2,10 +2,10 @@
 import random
 #changed the opening title of the GUI and also cahnged the welcoming message to stay consitent of new game title 
 GUI_WINDOW_TITLE = "Rock-Paper-Scissors-Shoot!"
-WELCOME_MESSAGE = "Hi. Welcome to my Rock-Paper-Scissors- Shoot game!, lets jump into it"
+WELCOME_MESSAGE = "Hi, Welcome to my Rock-Paper-Scissors- Shoot game!, Let's jump into it!"
 GUI_PROMPT_MESSAGE = "Please choose an option from the dropdown:"
 
-#here i changed the winning and losing messages
+#Here I changed the winning and losing messages
 WIN_MESSAGE = "Congrats, you won the round!"
 LOSE_MESSAGE = "Oh no, looks like the computer won this time :("
 TIE_MESSAGE = "Oh, it's a tie."
