@@ -22,3 +22,7 @@ each team memeber must complete 6 commits
 after reaching the 6 commits be sure to add in a description above saying what you changed 
 
 double check to see if code is still running how it should be 
+
+Find problems in code
+
+Find solutions to problems
